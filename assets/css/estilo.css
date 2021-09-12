@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+:root {
+    --main-text:      #F9FAF8;
+    --secondary-text: #E5E7EB;
+    --background:     #1F2937;
+    --button-color:   #3882F6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96em;
+}
+
+.header-container__logo h1 {
+    color: var(--main-text);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header-container__nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-container__nav li a {
+    font-size: 1rem;
+    color: var(--secondary-text);
+    font-weight: 600;
+}
+
+.hero-container {
+    width: 100%;
+    height: 25rem;
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-container__text {
+    color: var(--main-text);
+}
+
+.hero-container__text h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    width: 25rem;
+    line-height: 1.2;
+}
+
+.hero-container__text p {
+    font-size: 1rem;
+    width: 25rem;
+}
+
+.hero-container__text-btn {
+    color: var(--main-text);
+    background-color: var(--button-color);
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.hero-container__img {
+    height: 13rem;
+    width: 25rem;
+    background-color: var(--button-color);
+    padding: 0 5rem;
+
+}
+
+.hero-container__img-field p {
+    font-size: 1rem;
+    color: var(--main-text);
+    margin: 6rem auto;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    color: var(--background);
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    height: 25rem;
+}
+
+.info-container__field {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60rem;
+    gap: 2rem;
+}
+
+.info-container__field-img {
+    height: 10rem;
+    width: 80%;
+    border: .3rem solid var(--button-color);
+    border-radius: .5rem;
+    margin: 0 auto;
+}
+
+.info-container__field-item p {
+    color: black;
+    font-size: .9rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.quote-container {
+    width: 100%;
+    height: 25rem;
+    background-color: var(--secondary-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container__text p {
+    font-size: 1.8rem;
+    width: 55rem;
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--background);
+    margin: 0;
+}
+
+.quote-container__author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.signup-container {
+    width: 100%;
+    height: 20rem;
+    background-color: var(--main-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60rem;
+    background-color: var(--button-color);
+    color: var(--main-text);
+    padding: 3rem 0;
+    border-radius: 1rem;
+}
+
+.signup-container__content-text h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.signup-container__content-text p {
+    font-size: 1rem;
+}
+
+.signup-container__btn {
+    padding: .60rem 1.5rem;
+    border-radius: .5rem;
+    border: .15rem solid var(--main-text);
+    background-color: var(--button-color);
+    font-weight: bold;
+    color: var(--main-text);
+}
+
+.footer-container {
+    width: 100%;
+    height: 6rem;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container p {
+    font-size: 1rem;
+    color: var(--main-text);
+}
